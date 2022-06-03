@@ -27,7 +27,7 @@ img = cv2.resize(img,size)
 ```
 
 ## CNN model
-we used the keras module to make our convolutional neural network.the model has the architecture is given below:
+We used the keras module to make our convolutional neural network.the model has the architecture is given below:
 1. 2 convolutional layers with 32 filters
 2. Max poooling and dropout
 3. 2 convolutional layer with 64 filters
