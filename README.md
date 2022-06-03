@@ -6,11 +6,11 @@ This project aims at determinig the genre of the movie using its posters for ima
 We used a dataset containing 15000 movie posters which were classified into drama, thriller, action, comedy, biography or documentary or a combination of these posters were downloaded from IMDB using web scrapping and a csv file was generated containg the title and its genres.
 The dataset was divided into 3 sets with 80% for training 10% for test and validation set.
 
-![arizona](https://drive.google.com/uc?export=view&id=1Xek4IJP6EzzwrKI3HzBAdC5_KBm8DuC8)
+![arizona](https://user-images.githubusercontent.com/60546202/171791915-07eeed85-b1ee-40fb-8250-95f267075f44.jpeg)
 
-![space](https://drive.google.com/uc?export=view&id=189gyCdljlsYHYufao8AOK0sFk9jCYfL9)
+![space](https://user-images.githubusercontent.com/60546202/171791910-65cd70fd-4adf-4cc1-91c0-5a66736d0a6c.jpeg)
 
-![marvel](https://drive.google.com/uc?export=view&id=1AYFCgrCmnYtuzrN271ghlpssQ2DEUew5)
+![captain](https://user-images.githubusercontent.com/60546202/171791903-84b6a199-30e8-4ab6-8d5e-8e088f7eebd6.jpeg)
 
 
 ## Preprocessing
@@ -34,27 +34,25 @@ we used the keras module to make our convolutional neural network.the model has 
 4. Dense layer with 128 neurons
 5. Output neuron with 6 neurons
 
-![bldia-250](https://drive.google.com/uc?export=view&id=1lokj5jSNCKVC_C9lweikit-1zfeX36P0)
+![cnn](https://user-images.githubusercontent.com/60546202/171791899-41d72f63-c889-4cc5-a1f9-50810ece8b1f.jpeg)
 
 ## Results
 Some movie posters were fed to our trained model and the following were the outputs. There are six output neurons each one corresponding to a particular genre and each neuron gives a real number output. The three highest value for each poster is given below:
 
 
-![mi-50](https://drive.google.com/uc?export=view&id=1oZrZMc20vPS2wpD_ppG-Pc5aPQ59rdgJ)
-
-
+![mi 5](https://user-images.githubusercontent.com/60546202/171791896-016d685e-be17-4c50-887b-dba507d639a5.jpeg)
 
 **Prediction:**
 
 Action 0.5179066 | Crime 0.19378987 | Horror 0.2179066
 
-![yjhd](https://drive.google.com/uc?export=view&id=1oyiX9YG9bb2UW8kHidh8-EJ6wdU4idoB)
+![yjhd](https://user-images.githubusercontent.com/60546202/171791890-9adfce65-ca02-4433-a703-1ffe7de284a1.jpeg)
 
 **Prediction:**
 
 Romance  0.5043122 | Drama 0.34689817 | Biography 0.1913521
 
-![inception](https://drive.google.com/uc?export=view&id=1ITLehQsWwxNc22PADGgsNfSuvgqvooN7)
+![inception](https://user-images.githubusercontent.com/60546202/171791881-ac4f744f-9824-4037-8f12-25c765001e1c.jpeg)
 
 **Prediction:**
 
