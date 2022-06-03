@@ -1,4 +1,4 @@
-# Movie-genre-detection-from-posters
+
 # Movie Genere prediction from posters
 
 This project aims at determinig the genre of the movie using its posters for image classifications CNNs are the most effective types of neural network in this project we try to create a CNN which would predict the genres of these movies. 
