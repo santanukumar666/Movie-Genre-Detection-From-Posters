@@ -12,8 +12,8 @@ import preprocessing as pp
 
 num_of_filters = 32
 num_of_labels = pp.n_classes
-batch_size = 2
-epochs = 30
+batch_size = 4
+epochs = 24
 
 print(num_of_labels)
 print(pp.x_train.shape)
