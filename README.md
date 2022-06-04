@@ -57,6 +57,10 @@ Romance  0.5043122 | Drama 0.34689817 | Biography 0.1913521
 **Prediction:**
 
 Thriller 0.4531901 | Drama 0.2649131 | Action 0.2391053
+## Webapp
+Made a simple flask webapp for demonstration.
+
+![1](https://user-images.githubusercontent.com/60546202/171986421-045fcc0f-9e2a-4236-886c-bdf2bf640af6.jpg)
 
 ## Authors
 
