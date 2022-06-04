@@ -108,9 +108,9 @@ with open('label.json', 'w') as lf:
 n_classes = len(label_dict["id2genre"])
 #savelocation = "/content/drive/MyDrive/movie genre test/"
 
-# ---------------comment below statement once you downloaded the movie posters ------------------------------------------
-# download_posters(savelocation)
-# ----------------------------------------------------------------------------------------------------------------------
+#comment the below line after sucessful download of posters
+download_posters(savelocation)
+
 
 #image_glob = glob.glob(savelocation +"*.jpg")
 DEST = 'movie genre test'
